@@ -1,0 +1,3 @@
+- `[x]` ติดตั้ง Tesseract.js CDN ใน [index.html](file:///C:/Users/66830/.gemini/antigravity/scratch/asset_audit_system/index.html)
+- `[x]` พัฒนาระบบประมวลผลเรนเดอร์ PDF ลง canvas และดึง OCR (ภาษาไทย/อังกฤษ) ใน [pdf-parser.js](file:///C:/Users/66830/.gemini/antigravity/scratch/asset_audit_system/pdf-parser.js)
+- `[x]` เขียน walkthrough.md และแนวทางการทดสอบการใช้งานให้ผู้ใช้งาน

@@ -1,0 +1,41 @@
+Vercel CLI 55.0.0 (Node.js 26.4.0)
+Retrieving project…
+Deploying stnjcs-projects/g-patrol
+Uploading [--------------------] (0.0B/111.7KB)
+Uploading [=====---------------] (32.0KB/111.7KB)
+Uploading [===========---------] (64.0KB/111.7KB)
+Uploading [=================---] (96.0KB/111.7KB)
+Uploading [====================] (111.7KB/111.7KB)
+  Inspect         https://vercel.com/stnjcs-projects/g-patrol/85C94WVsaQLNiGg6mB8Y4r3bnbWb
+  Production      https://g-patrol-lremshko5-stnjcs-projects.vercel.app
+Building…
+Running build in Washington, D.C., USA (East) – iad1
+Build machine configuration: 2 cores, 8 GB
+Retrieving list of deployment files...
+Previous build caches not available.
+Previous build caches not available.
+  Production      https://g-patrol-lremshko5-stnjcs-projects.vercel.app
+Completing…
+▲ Aliased         https://g-patrol.vercel.app
+{
+  "status": "ok",
+  "deployment": {
+    "id": "dpl_85C94WVsaQLNiGg6mB8Y4r3bnbWb",
+    "url": "https://g-patrol-lremshko5-stnjcs-projects.vercel.app",
+    "inspectorUrl": "https://vercel.com/stnjcs-projects/g-patrol/85C94WVsaQLNiGg6mB8Y4r3bnbWb",
+    "readyState": "READY",
+    "target": "production",
+    "deploymentApiUrl": "https://api.vercel.com/v13/deployments/dpl_85C94WVsaQLNiGg6mB8Y4r3bnbWb"
+  },
+  "message": "Deployment g-patrol-lremshko5-stnjcs-projects.vercel.app ready.",
+  "next": [
+    {
+      "command": "vercel inspect g-patrol-lremshko5-stnjcs-projects.vercel.app",
+      "when": "Inspect deployment"
+    },
+    {
+      "command": "vercel deploy --prod",
+      "when": "Promote to production"
+    }
+  ]
+}

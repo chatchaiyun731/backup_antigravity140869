@@ -1,0 +1,7 @@
+
+> investment-portfolio-tracker@0.0.0 build
+> tsc -b && vite build
+
+src/components/Dashboard.tsx(26,5): error TS6133: 'totalCost' is declared but its value is never read.
+src/components/Dashboard.tsx(28,5): error TS6133: 'totalGainLossPercent' is declared but its value is never read.
+src/components/Dashboard.tsx(33,9): error TS6133: 'isProfit' is declared but its value is never read.

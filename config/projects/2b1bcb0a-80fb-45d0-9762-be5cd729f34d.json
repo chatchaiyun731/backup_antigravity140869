@@ -1,0 +1,11 @@
+{
+  "id":  "2b1bcb0a-80fb-45d0-9762-be5cd729f34d",
+  "name":  "smart investment ai",
+  "projectResources":  {},
+  "settings":  {
+    "fileAccessPolicy":  "AGENT_SETTING_POLICY_ASK",
+    "internetPolicy":  "AGENT_SETTING_POLICY_ASK",
+    "autoExecutionPolicy":  "CASCADE_COMMANDS_AUTO_EXECUTION_OFF",
+    "artifactReviewMode":  "ARTIFACT_REVIEW_MODE_ALWAYS"
+  }
+}

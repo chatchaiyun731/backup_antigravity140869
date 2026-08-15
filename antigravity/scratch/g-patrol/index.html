@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>G-Patrol - ระบบจัดการเดินตรวจ</title>
+    
+    <!-- Custom Style -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    
+    <!-- Supabase JS Client library CDN -->
+    <script src="https://unpkg.com/@supabase/supabase-js@2"></script>
+    
+    <!-- HTML5 QR Code Library CDN -->
+    <script src="https://unpkg.com/html5-qrcode"></script>
+</head>
+<body>
+    <!-- ========================================== -->
+    <!-- 1. หน้าจอเข้าสู่ระบบ / สมัครสมาชิก (Auth Screen) -->
+    <!-- ========================================== -->
+    <div id="auth-screen" class="auth-container">
+        <div class="auth-card">
+            <div class="auth-header">
+                <span class="auth-logo"><i data-lucide="shield"></i></span>
+                <h2>G-Patrol</h2>
+                <p>ระบบเดินตรวจและเช็คอินจุดตรวจ (checkpoints)</p>
+            </div>
+            
+            <div class="auth-tabs">
+                <button class="auth-tab-btn active" id="tab-login-btn">เข้าสู่ระบบ</button>
+                <button class="auth-tab-btn" id="tab-register-btn">ลงทะเบียน</button>
+            </div>
+            
+            <!-- ฟอร์มเข้าสู่ระบบ (Login Form) -->
+            <form id="login-form" class="auth-form">
+                <div class="form-group">
+                    <label for="login-username">ชื่อผู้ใช้งาน (Username)</label>
+                    <input type="text" id="login-username" class="form-control" placeholder="ระบุ username ของคุณ" required>
+                </div>
+                <div class="form-group">
+                    <label for="login-password">รหัสผ่าน</label>
+                    <input type="password" id="login-password" class="form-control" placeholder="ป้อนรหัสผ่าน" required>
+                </div>
+                <button type="submit" class="btn btn-primary" style="width: 100%; margin-top: 1rem;">เข้าสู่ระบบ</button>
+            </form>
+            
+            <!-- ฟอร์มลงทะเบียน (Register Form) -->
+            <form id="register-form" class="auth-form" style="display: none;">
+                <div class="form-group">
+                    <label for="reg-username">ชื่อผู้ใช้งาน (Username) *</label>
+                    <input type="text" id="reg-username" class="form-control" placeholder="สำหรับใช้เข้าสู่ระบบ" required>
+                </div>
+                <div class="form-group">
+                    <label for="reg-password">รหัสผ่าน *</label>
+                    <input type="password" id="reg-password" class="form-control" placeholder="รหัสผ่านอย่างน้อย 4 หลัก" required>
+                </div>
+                <div class="form-group">
+                    <label for="reg-display-name">ชื่อ-นามสกุลจริง *</label>
+                    <input type="text" id="reg-display-name" class="form-control" placeholder="เช่น นายสมบูรณ์ ปลอดภัย" required>
+                </div>
+                <div class="form-group">
+                    <label for="reg-role">บทบาทหน้าที่</label>
+                    <select id="reg-role" class="form-control">
+                        <option value="court marshal">เจ้าพนักงานตำรวจศาล (Court Marshal)</option>
+                        <option value="guard">เจ้าหน้าที่เดินตรวจ 1 (Guard - บริเวณศาล)</option>
+                        <option value="guard2">เจ้าหน้าที่เดินตรวจ 2 (Guard 2 - บ้านพัก)</option>
+                        <option value="officer">เจ้าหน้าที่พัสดุ (Officer)</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="reg-avatar-file">รูปถ่ายส่วนตัว (รปภ./เจ้าหน้าที่)</label>
+                    <input type="file" id="reg-avatar-file" class="form-control" accept="image/*">
+                </div>
+                <button type="submit" class="btn btn-primary" style="width: 100%; margin-top: 1rem;">ลงทะเบียนผู้ใช้ใหม่</button>
+            </form>
+            
+            <div class="auth-footer">
+                <button type="button" id="btn-open-config-auth" class="btn-link">
+                    <i data-lucide="settings"></i> ตั้งค่าการเชื่อมต่อฐานข้อมูล
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ========================================== -->
+    <!-- 2. หน้าจอหลักของระบบ (App Screen) -->
+    <!-- ========================================== -->
+    <div id="app-screen" class="app-container" style="display: none;">
+        <!-- Header บาร์บนสุด -->
+        <header class="app-header">
+            <div class="header-logo">
+                <span class="logo-icon"><i data-lucide="shield"></i></span>
+                <span class="logo-text">G-Patrol</span>
+            </div>
+            <button id="btn-logout" class="btn-logout">ออกระบบ</button>
+        </header>
+
+        <!-- การ์ดโปรไฟล์ผู้ใช้ -->
+        <section class="profile-card">
+            <div class="profile-avatar-container">
+                <div class="profile-avatar">
+                    <img id="user-avatar-img" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzk0YTNjMCI+PHBhdGggZD0iTTEyIDEyYzIuMjEgMCA0LTEuNzkgNC00cy0xLjc5LTQtNC00LTQgMS43OS00IDQgMS43OSA0IDQgNHptMCAyYy0yLjY3IDAtOCAxLjM0LTggNHYyaDE2di0yYzAtMi42Ni01LjMzLTQtOC00eiIvPjwvc3ZnPg==" alt="Avatar">
+                </div>
+                <button id="btn-change-avatar" class="btn-change-avatar" title="เปลี่ยนรูปโปรไฟล์">
+                    <i data-lucide="camera"></i>
+                </button>
+                <input type="file" id="user-avatar-file-input" accept="image/*" style="display: none;">
+            </div>
+            <div class="user-meta">
+                <h3 id="user-display-name">สมชาย แดนสวรรค์</h3>
+                <p id="user-role-text">Court Marshal</p>
+                <p id="user-shift-text" style="font-size: 0.85rem; font-weight: 600; color: #1e3a8a; margin-top: 0.15rem; display: none;">กะปฏิบัติหน้าที่: -</p>
+            </div>
+        </section>
+
+        <!-- ส่วนเนื้อหาหลัก (สลับหน้าด้วยแท็บนำทาง) -->
+        <main class="main-content">
+            
+            <!-- หน้าหลัก / แดชบอร์ด (Dashboard View) -->
+            <div id="view-dashboard" class="tab-view active">
+                <!-- สรุปสถิติประจำวัน -->
+                <section class="summary-section">
+                    <h2 class="section-title">📊 สรุปรายงานประจำวัน</h2>
+                    
+                    <!-- เครื่องมือกรองข้อมูลสำหรับ Court Marshal / Admin (Zone & Shift Filters) -->
+                    <div id="court-marshal-filters-section" style="display: none; margin-bottom: 1.25rem;">
+                        <div class="filter-card" style="background: white; padding: 1rem; border-radius: 12px; border: 1.5px solid var(--border-color); box-shadow: 0 4px 6px rgba(0,0,0,0.02); display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 0.75rem; align-items: center;">
+                            <div class="form-group" style="margin-bottom: 0;">
+                                <label for="filter-date" style="font-size: 0.8rem; font-weight: 600; color: var(--text-secondary); margin-bottom: 0.25rem; display: block;">📅 เลือกวันที่เดินตรวจ</label>
+                                <input type="date" id="filter-date" class="form-control" style="font-size: 0.85rem; padding: 0.5rem 0.75rem; height: auto;">
+                            </div>
+                            <div class="form-group" style="margin-bottom: 0;">
+                                <label for="filter-zone" style="font-size: 0.8rem; font-weight: 600; color: var(--text-secondary); margin-bottom: 0.25rem; display: block;">📍 เลือกโซนจุดตรวจ</label>
+                                <select id="filter-zone" class="form-control" style="font-size: 0.85rem; padding: 0.5rem 0.75rem; height: auto;">
+                                    <option value="all">ทั้งหมด (ทุกโซน)</option>
+                                    <option value="บริเวณศาล">บริเวณศาล (Zone 1)</option>
+                                    <option value="บ้านพัก">บ้านพัก (Zone 2)</option>
+                                    <option value="อื่นๆ">โซนอื่นๆ</option>
+                                </select>
+                            </div>
+                            <div class="form-group" style="margin-bottom: 0;">
+                                <label for="filter-shift" style="font-size: 0.8rem; font-weight: 600; color: var(--text-secondary); margin-bottom: 0.25rem; display: block;">⏰ เลือกกะเวลาเดินตรวจ</label>
+                                <select id="filter-shift" class="form-control" style="font-size: 0.85rem; padding: 0.5rem 0.75rem; height: auto;">
+                                    <option value="all">ทั้งหมด (24 ชั่วโมง)</option>
+                                    <option value="shift1">กะที่ 1 (06:00 - 11:00 น.)</option>
+                                    <option value="shift2">กะที่ 2 (12:00 - 14:00 น.)</option>
+                                    <option value="shift3">กะที่ 3 (14:30 - 16:00 น.)</option>
+                                    <option value="shift4">กะที่ 4 (16:30 - 18:00 น.)</option>
+                                    <option value="shift5">กะที่ 5 (20:30 - 22:00 น.)</option>
+                                    <option value="shift6">กะที่ 6 (00:30 - 02:00 น.)</option>
+                                    <option value="shift7">กะที่ 7 (02:30 - 04:00 น.)</option>
+                                    <option value="shift8">กะที่ 8 (04:30 - 06:00 น.)</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="summary-cards">
+                        <div class="summary-card card-blue">
+                            <p class="card-label">ตรวจทั้งหมด</p>
+                            <h1 class="card-value" id="stat-total-today">0</h1>
+                        </div>
+                        <div class="summary-card card-green">
+                            <p class="card-label">สถานะปกติ</p>
+                            <h1 class="card-value" id="stat-normal-today">0</h1>
+                        </div>
+                        <div class="summary-card card-red">
+                            <p class="card-label">พบสิ่งผิดปกติ</p>
+                            <h1 class="card-value" id="stat-abnormal-today">0</h1>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- กล่องรายงานเดินตรวจเวรประจำวัน (Duty Report Section) -->
+                <section class="duty-report-section" id="section-duty-report">
+                    <h2 class="section-title">🕒 รายงานเดินตรวจเวรประจำวัน</h2>
+                    <p class="section-subtitle">คลิกปุ่ม "บันทึกผล" เพื่อบันทึกผลการตรวจสอบของแต่ละจุดตรวจในพื้นที่รับผิดชอบของคุณ</p>
+                    <div class="duty-checkpoints-grid" id="duty-checkpoints-list">
+                        <div style="text-align: center; color: var(--text-tertiary); padding: 2rem; grid-column: 1 / -1;">
+                            กำลังดึงข้อมูลรายการจุดตรวจรายงานเวร...
+                        </div>
+                    </div>
+                </section>
+
+                <!-- ประวัติ 50 รายการล่าสุด -->
+                <section class="history-section">
+                    <h2 class="section-title" id="history-section-title">📋 รายงานแจ้งผลการตรวจเวรประจำวัน</h2>
+                    <div class="table-responsive">
+                        <table class="patrol-table">
+                            <thead>
+                                <tr>
+                                    <th>กะเวลา / เวลาตรวจ</th>
+                                    <th>ข้อมูลจุดตรวจ</th>
+                                    <th>สถานะ</th>
+                                    <th>ภาพ</th>
+                                </tr>
+                            </thead>
+                            <tbody id="patrol-logs-tbody">
+                                <tr>
+                                    <td colspan="4" style="text-align: center; color: var(--text-tertiary); padding: 2rem;">
+                                        กำลังดึงข้อมูลเดินตรวจล่าสุด...
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <button id="btn-load-latest" class="btn-primary-wide">
+                        <i data-lucide="refresh-cw"></i> โหลดข้อมูลล่าสุด
+                    </button>
+                </section>
+            </div>
+
+            <!-- หน้าจัดการจุดตรวจ (Manage Checkpoints View - แอดมิน/เจ้าหน้าที่เท่านั้น) -->
+            <div id="view-checkpoints" class="tab-view">
+                <section class="checkpoint-manage-section">
+                    <div class="view-header-row">
+                        <h2 class="section-title">📍 รายงานจุดเดินตรวจ (ตรวจสอบและเช็คอิน)</h2>
+                        <button id="btn-add-checkpoint" class="btn btn-primary btn-sm">
+                            <i data-lucide="plus"></i> เพิ่มจุดตรวจใหม่
+                        </button>
+                    </div>
+
+                    <!-- กล่องแสดงกะปฏิบัติหน้าที่ของ Guard ขณะล็อกอิน -->
+                    <div id="guard-current-shift-alert" style="display: none; background: linear-gradient(135deg, #1e3a8a, #3b82f6); color: white; padding: 0.75rem 1rem; border-radius: 8px; margin-bottom: 1rem; font-size: 0.9rem; font-weight: bold; box-shadow: 0 4px 6px rgba(0,0,0,0.05); align-items: center; gap: 0.5rem;">
+                        <i data-lucide="clock" style="width: 18px; height: 18px;"></i>
+                        <span>⏰ กะปฏิบัติหน้าที่ขณะล็อกอิน: <strong id="guard-login-shift-text">-</strong></span>
+                    </div>
+
+                    <div class="search-bar-row">
+                        <input type="text" id="checkpoint-search-input" class="form-control" placeholder="ค้นหา รหัสจุดตรวจ หรือ ชื่อจุดตรวจ...">
+                        <select id="checkpoint-location-filter" class="form-control" style="width: auto;">
+                            <option value="all">ทุกสถานที่ (ทุกโซน)</option>
+                            <option value="บริเวณศาล">บริเวณศาล (Zone 1)</option>
+                            <option value="บ้านพัก">บ้านพัก (Zone 2)</option>
+                            <option value="อื่นๆ">โซนอื่นๆ</option>
+                        </select>
+                    </div>
+
+                    <div class="table-responsive">
+                        <table class="patrol-table">
+                            <thead>
+                                <tr>
+                                    <th>รหัสจุดตรวจ (QR)</th>
+                                    <th>ชื่อจุดตรวจ</th>
+                                    <th>สถานที่/บริเวณ</th>
+                                    <th>ภาพถ่าย</th>
+                                    <th style="width: 140px; text-align: center;">การจัดการ</th>
+                                </tr>
+                            </thead>
+                            <tbody id="checkpoints-table-body">
+                                <tr>
+                                    <td colspan="5" style="text-align: center; color: var(--text-tertiary); padding: 2rem;">
+                                        กำลังดึงข้อมูลจุดตรวจ...
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+            </div>
+
+            <!-- หน้าออกรายงานการเดินตรวจ (Reports View - แอดมิน/เจ้าหน้าที่เท่านั้น) -->
+            <div id="view-reports" class="tab-view">
+                <section class="reports-section">
+                    <h2 class="section-title">📄 ส่งออกรายงานเดินตรวจ</h2>
+                    <p class="section-subtitle">กรองช่วงเวลาและสถานที่เพื่อส่งออกรายงานบันทึกประวัติการเดินตรวจ</p>
+                    
+                    <div class="report-filters-card" style="background: white; padding: 1.5rem; border-radius: 12px; border: 1px solid var(--border-color); box-shadow: 0 4px 6px rgba(0,0,0,0.02); display: flex; flex-direction: column; gap: 1rem;">
+                        <div class="form-group" style="margin-bottom: 0;">
+                            <label for="report-date-filter" style="font-weight: 600; margin-bottom: 0.35rem; display: block;">📅 เลือกวันเดือนปี ที่ต้องการพิมพ์รายงาน</label>
+                            <input type="date" id="report-date-filter" class="form-control" style="font-weight: 600;">
+                        </div>
+                        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 1rem;">
+                            <div class="form-group" style="margin-bottom: 0;">
+                                <label for="report-location-filter" style="font-weight: 600; margin-bottom: 0.35rem; display: block;">📍 สถานที่/บริเวณ</label>
+                                <select id="report-location-filter" class="form-control">
+                                    <option value="all">ทุกสถานที่</option>
+                                    <option value="บริเวณศาล">บริเวณศาล</option>
+                                    <option value="บ้านพัก">บ้านพัก</option>
+                                </select>
+                            </div>
+                            <div class="form-group" style="margin-bottom: 0;">
+                                <label for="report-fiscal-year" style="font-weight: 600; margin-bottom: 0.35rem; display: block;">ปีงบประมาณ (กรณีไม่ระบุวันที่)</label>
+                                <select id="report-fiscal-year" class="form-control">
+                                    <option value="2569">2569</option>
+                                    <option value="2568">2568</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <div class="report-btn-group" style="margin-top: 0.5rem;">
+                            <button id="btn-export-csv" class="btn btn-secondary">
+                                <i data-lucide="download"></i> ส่งออก Excel / CSV
+                            </button>
+                            <button id="btn-export-pdf" class="btn btn-primary">
+                                <i data-lucide="printer"></i> ส่งออก PDF รายงาน
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- ส่วนนำเข้าจุดตรวจจาก PDF (PDF Import Tool) -->
+                    <div class="pdf-import-card officer-only">
+                        <h3><i data-lucide="file-up" style="vertical-align: middle;"></i> นำเข้าจุดตรวจจากบัญชีรายชื่อ (PDF)</h3>
+                        <p>อัปโหลดเอกสาร PDF บัญชีจุดตรวจเพื่อประมวลผลเพิ่มรหัสและนำเข้าฐานข้อมูลอัตโนมัติ</p>
+                        
+                        <div class="file-upload-wrapper">
+                            <input type="file" id="pdf-file-input" accept="application/pdf" style="display: none;">
+                            <button type="button" id="btn-select-pdf" class="btn btn-secondary" style="width: 100%;">
+                                <i data-lucide="upload-cloud"></i> เลือกไฟล์ PDF รายการจุดตรวจ
+                            </button>
+                            <p id="pdf-file-name" class="file-name-text">ไม่ได้เลือกไฟล์ใดๆ</p>
+                        </div>
+                        
+                        <div id="pdf-progress-container" style="display: none; margin-top: 1rem;">
+                            <div class="progress-bar-bg">
+                                <div id="pdf-progress-bar" class="progress-bar-fill" style="width: 0%;"></div>
+                            </div>
+                            <p id="pdf-status-text" class="file-name-text" style="text-align: center; margin-top: 0.25rem;">กำลังอ่านข้อมูล PDF...</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            
+        </main>
+
+        <!-- Floating Action Button (FAB) สำหรับการสแกน QR Code เดินตรวจ -->
+        <button id="fab-scan-trigger" class="fab-scan" title="สแกน QR Code เดินตรวจ">
+            <i data-lucide="qr-code"></i>
+        </button>
+
+        <!-- แถบนำทางด้านล่าง (Bottom Navigation Bar) -->
+        <nav class="bottom-nav" id="app-bottom-nav" style="display: none;">
+            <button class="nav-tab-btn active" data-target="view-dashboard">
+                <i data-lucide="layout-dashboard"></i>
+                <span>หน้าหลัก</span>
+            </button>
+            <button class="nav-tab-btn" data-target="view-checkpoints">
+                <i data-lucide="map-pin"></i>
+                <span>รายงานจุดเดินตรวจ</span>
+            </button>
+            <button class="nav-tab-btn" data-target="view-reports">
+                <i data-lucide="file-text"></i>
+                <span>รายงาน</span>
+            </button>
+        </nav>
+    </div>
+
+    <!-- ========================================== -->
+    <!-- 3. โมดูลป๊อปอัป ตั้งค่าการเชื่อมต่อฐานข้อมูล (Config Modal) -->
+    <!-- ========================================== -->
+    <div id="modal-config" class="modal-overlay">
+        <div class="modal-card">
+            <div class="modal-header">
+                <h3>ตั้งค่าการเชื่อมต่อฐานข้อมูล Supabase</h3>
+                <button class="btn-close-modal"><i data-lucide="x"></i></button>
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <label for="config-url">Supabase Project URL</label>
+                    <input type="text" id="config-url" class="form-control" placeholder="https://xxxx.supabase.co">
+                </div>
+                <div class="form-group">
+                    <label for="config-key">Supabase Anon Key</label>
+                    <input type="text" id="config-key" class="form-control" placeholder="sb_publishable_xxxx...">
+                </div>
+                <p class="helper-text">ค่าเชื่อมต่อเหล่านี้จะถูกจัดเก็บไว้ในเบราว์เซอร์ของคุณเพื่อใช้งานระบบอย่างราบรื่น</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" id="btn-save-config" class="btn btn-primary" style="width: 100%;">บันทึกการตั้งค่า</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ========================================== -->
+    <!-- 4. โมดูลป๊อปอัป สแกน QR Code (Scanner Modal) -->
+    <!-- ========================================== -->
+    <div id="modal-scanner" class="modal-overlay">
+        <div class="modal-card" style="max-width: 500px;">
+            <div class="modal-header">
+                <h3>สแกน QR Code เช็คอินจุดตรวจ</h3>
+                <button class="btn-close-modal" id="btn-close-scanner"><i data-lucide="x"></i></button>
+            </div>
+            <div class="modal-body" style="padding: 0;">
+                <div id="qr-reader-container" class="qr-reader-box">
+                    <div id="qr-reader"></div>
+                </div>
+                <div class="scanner-actions">
+                    <div class="form-group" style="margin-bottom: 0;">
+                        <input type="text" id="manual-checkpoint-input" class="form-control" placeholder="หรือ กรอกรหัสจุดตรวจโดยตรง">
+                    </div>
+                    <button type="button" id="btn-manual-search" class="btn btn-secondary"><i data-lucide="search"></i> ตรวจสอบ</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ========================================== -->
+    <!-- 5. โมดูลป๊อปอัป ฟอร์มบันทึกการเดินตรวจ (Check-in Audit Form Modal) -->
+    <!-- ========================================== -->
+    <div id="modal-audit-form" class="modal-overlay">
+        <div class="modal-card" style="max-width: 600px;">
+            <div class="modal-header">
+                <h3>📝 บันทึกรายงานการเดินตรวจ</h3>
+                <button class="btn-close-modal"><i data-lucide="x"></i></button>
+            </div>
+            <div class="modal-body">
+                <div class="checkpoint-detail-card">
+                    <div class="detail-img-box" id="audit-image-preview">
+                        <span>ภาพตัวอย่างจุดตรวจ</span>
+                    </div>
+                    <div class="detail-info-box">
+                        <table class="detail-table">
+                            <tr>
+                                <td>รหัสจุดตรวจ:</td>
+                                <td id="audit-asset-number" style="font-weight: bold;">-</td>
+                            </tr>
+                            <tr>
+                                <td>ชื่อจุดตรวจ:</td>
+                                <td id="audit-asset-name">-</td>
+                            </tr>
+                            <tr>
+                                <td>สถานที่/บริเวณ:</td>
+                                <td id="audit-asset-location">-</td>
+                            </tr>
+                            <tr>
+                                <td>เจ้าหน้าที่ผู้ตรวจ:</td>
+                                <td id="audit-user-text" style="font-weight: 600; color: #475569;">-</td>
+                            </tr>
+                            <tr>
+                                <td>รอบกะเวลา:</td>
+                                <td id="audit-shift-text" style="font-weight: bold; color: #1e3a8a;">-</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- ปุ่มแจ้งเหตุฉุกเฉิน (SOS Emergency Call Button) -->
+                <div class="sos-emergency-container" style="margin-bottom: 1.25rem;">
+                    <a href="tel:09542568538" class="btn btn-danger btn-sos" style="width: 100%; background-color: #dc2626; border: none; color: white; display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; font-weight: 700; padding: 0.75rem 1rem; border-radius: 8px; font-size: 1.05rem; box-shadow: 0 4px 6px rgba(220, 38, 38, 0.2); text-decoration: none; transition: all 0.2s ease;">
+                        <i data-lucide="phone-call" style="width: 18px; height: 18px;"></i> 
+                        🚨 SOS โทรแจ้งเหตุฉุกเฉิน (Court Marshal)
+                    </a>
+                </div>
+
+                <form id="audit-record-form">
+                    <input type="hidden" id="audit-asset-id">
+                    <input type="hidden" id="audit-photo-url">
+                    
+                    <!-- ส่วนเลือกวันเวลาบันทึกเช็คอิน สำหรับสิทธิ์ Court Marshal (บันทึกย้อนหลัง) -->
+                    <div id="audit-datetime-container" style="display: none;" class="form-group">
+                        <label for="audit-custom-datetime" style="font-weight: 600; display: block; margin-bottom: 0.5rem; color: #1e3a8a;">📅 วันเวลาที่ตรวจเช็คอิน (สิทธิ์ตำรวจศาลกำหนดเอง)</label>
+                        <input type="datetime-local" id="audit-custom-datetime" class="form-control" style="background-color: #f8fafc; border: 1.5px solid #cbd5e1; font-weight: 600;">
+                    </div>
+
+                    <!-- เวลาจริงที่รายงาน (Actual Report Time) -->
+                    <div class="form-group">
+                        <label style="font-weight: 600; display: block; margin-bottom: 0.35rem; color: #1e3a8a;">🕒 เวลาจริงที่รายงาน (ตามเวลามือถือขณะบันทึก)</label>
+                        <input type="text" id="audit-realtime-display" class="form-control" readonly style="background-color: #f1f5f9; border: 1.5px solid #cbd5e1; font-weight: 600; color: #475569;">
+                    </div>
+
+                    <!-- พิกัดสถานที่สำหรับระบุพิกัด GPS -->
+                    <div class="form-group">
+                        <label style="font-weight: 600; display: block; margin-bottom: 0.35rem; color: #1e3a8a;">📍 พิกัดสถานที่ (GPS Coordinates)</label>
+                        <div style="display: flex; gap: 0.5rem;">
+                            <input type="text" id="audit-gps-display" class="form-control" placeholder="กำลังขอสิทธิ์ดึงพิกัด GPS..." readonly style="background-color: #f1f5f9; border: 1.5px solid #cbd5e1; font-weight: 600; color: #475569; flex-grow: 1;">
+                            <button type="button" id="btn-get-gps" class="btn btn-secondary" style="padding: 0.5rem 1rem; display: inline-flex; align-items: center; justify-content: center; gap: 0.25rem; font-size: 0.85rem; font-weight: 600; white-space: nowrap; height: 38px;">
+                                <i data-lucide="map-pin" style="width: 16px; height: 16px;"></i> ดึงพิกัด
+                            </button>
+                        </div>
+                        <input type="hidden" id="audit-latitude">
+                        <input type="hidden" id="audit-longitude">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label style="font-weight: 600; display: block; margin-bottom: 0.5rem; color: #1e3a8a;">สถานะจุดตรวจ</label>
+                        <div class="status-option-group" style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem;">
+                            <label class="status-radio-label" style="margin: 0; width: 100%;">
+                                <input type="radio" name="audit-status" value="normal" checked>
+                                <span class="status-radio-btn badge-normal" style="display: block; text-align: center; width: 100%; box-sizing: border-box;">ปกติ / ปลอดภัย</span>
+                            </label>
+                            <label class="status-radio-label" style="margin: 0; width: 100%;">
+                                <input type="radio" name="audit-status" value="damaged">
+                                <span class="status-radio-btn badge-damaged" style="display: block; text-align: center; width: 100%; box-sizing: border-box; background-color: #fee2e2; color: #991b1b; border-color: #fca5a5;">ไม่ปกติ / ผิดปกติ</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- กล่องข้อความให้พิมพ์เพิ่มเติมกรณี เหตุการณ์ไม่ปกติ -->
+                    <div class="form-group" id="abnormal-notes-container" style="display: none;">
+                        <label for="audit-notes" style="font-weight: 600; color: #b91c1c; display: block; margin-bottom: 0.35rem;">⚠️ รายละเอียดเหตุการณ์ไม่ปกติ (ระบุเพิ่มเติม)</label>
+                        <textarea id="audit-notes" class="form-control" rows="3" placeholder="กรุณาระบุรายละเอียด เช่น ลวดหนามชำรุด, ประตูไม่ได้ล็อก หรือพบสิ่งผิดปกติอื่น ๆ" style="border: 1.5px solid #fca5a5;"></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label style="font-weight: 600;">แนบภาพถ่ายจุดตรวจขณะนั้น (รปภ./เจ้าหน้าที่)</label>
+                        <div id="inapp-warning-text" style="display: none; color: #ef4444; font-size: 0.8rem; margin-top: 0.15rem; margin-bottom: 0.5rem; font-weight: 500; line-height: 1.3;">
+                            ⚠️ หากระบบเปิดแกลเลอรีรูปภาพแทนกล้องถ่ายรูป กรุณากดปุ่ม 3 จุดที่มุมขวาบน (หรือปุ่มแชร์) แล้วเลือก "เปิดด้วยเบราว์เซอร์อื่น (Open in Chrome/Safari)"
+                        </div>
+                        <div class="upload-photo-box">
+                            <input type="file" id="audit-photo-input" accept="image/*" capture="environment" style="display: none;">
+                            <button type="button" id="btn-trigger-camera" class="btn btn-secondary" style="width: 100%;">
+                                <i data-lucide="camera"></i> ถ่ายภาพ หรือ อัปโหลดรูปถ่าย
+                            </button>
+                            <p id="audit-photo-filename" class="file-name-text">ไม่มีภาพถ่ายแนบ</p>
+                        </div>
+                        <!-- กล่องพรีวิวรูปถ่ายจริงที่แนบเข้าสู่ระบบ (ก่อนกดยืนยันบันทึก) -->
+                        <div id="audit-taken-photo-preview" style="display: none; margin-top: 0.75rem; text-align: center; border: 1.5px dashed #cbd5e1; border-radius: 8px; padding: 0.75rem; background-color: #f8fafc;">
+                            <p style="font-size: 0.8rem; color: #64748b; margin-bottom: 0.5rem; font-weight: 600;">📷 ภาพถ่ายจริงที่จะแนบส่งรายงาน:</p>
+                            <img id="img-taken-preview" src="" alt="Check-in taken preview" style="max-height: 160px; max-width: 100%; border-radius: 6px; border: 1px solid #e2e8f0; box-shadow: 0 4px 6px rgba(0,0,0,0.05); margin: 0 auto; display: block; object-fit: contain;">
+                        </div>
+                        <div id="camera-loading" style="display: none; text-align: center; margin-top: 0.5rem;">
+                            <span class="spinner"></span> กำลังอัปโหลดภาพเข้าฐานข้อมูล...
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary" style="width: 100%; margin-top: 1rem;">
+                        <i data-lucide="check-square"></i> ยืนยันการเดินตรวจ
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- ========================================== -->
+    <!-- 6. โมดูลป๊อปอัป เพิ่ม/แก้ไขจุดตรวจ (Add/Edit Checkpoint Modal - สำหรับผู้ใช้มีสิทธิ์) -->
+    <!-- ========================================== -->
+    <div id="modal-checkpoint" class="modal-overlay">
+        <div class="modal-card" style="max-width: 550px;">
+            <div class="modal-header">
+                <h3 id="checkpoint-modal-title">เพิ่มจุดตรวจใหม่</h3>
+                <button class="btn-close-modal"><i data-lucide="x"></i></button>
+            </div>
+            <form id="checkpoint-form">
+                <input type="hidden" id="checkpoint-form-id">
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label for="checkpoint-form-number">รหัสจุดตรวจ / เลข QR Code *</label>
+                        <input type="text" id="checkpoint-form-number" class="form-control" placeholder="ระบุเลขประจำจุดตรวจ เช่น CP001" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="checkpoint-form-name">ชื่อจุดตรวจ *</label>
+                        <input type="text" id="checkpoint-form-name" class="form-control" placeholder="เช่น บริเวณประตูหน้าศาล, ประตูบ้านพัก" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="checkpoint-form-location">สถานที่/บริเวณ *</label>
+                        <select id="checkpoint-form-location" class="form-control" required>
+                            <option value="บริเวณศาล">บริเวณศาล</option>
+                            <option value="บ้านพัก">บ้านพัก</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="checkpoint-form-image">ลิงก์รูปถ่ายอ้างอิงจุดตรวจ</label>
+                        <input type="text" id="checkpoint-form-image" class="form-control" placeholder="วาง URL ลิงก์รูปภาพอ้างอิงประจำจุด">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary" style="width: 100%;">บันทึกข้อมูล</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- CDN PDF.js Library for PDF parsing -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.min.js"></script>
+    <script>
+        // Set worker for PDF.js
+        pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.worker.min.js';
+    </script>
+    
+    <!-- App scripts -->
+    <script src="supabase-service.js?v=20260707_3"></script>
+    <script src="pdf-parser.js?v=20260707_3"></script>
+    <script src="app.js?v=20260707_3"></script>
+</body>
+</html>

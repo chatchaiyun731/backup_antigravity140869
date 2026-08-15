@@ -1,0 +1,18 @@
+
+> investment-portfolio-tracker@0.0.0 build
+> tsc -b && vite build
+
+vite v8.1.0 building client environment for production...
+transforming...✓ 490 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.47 kB │ gzip:   0.30 kB
+dist/assets/index-B1NZ8Lv_.css    7.33 kB │ gzip:   2.13 kB
+dist/assets/index-Dr3HNwuT.js   660.83 kB │ gzip: 190.93 kB
+
+✓ built in 666ms
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.

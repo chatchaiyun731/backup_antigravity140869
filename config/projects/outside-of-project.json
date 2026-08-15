@@ -1,0 +1,18 @@
+{
+  "id":  "outside-of-project",
+  "name":  "Outside of Project",
+  "permissionGrants":  {
+    "permissionGrants":  {
+      "allow":  [
+        "command(Get-ChildItem -Recurse -File \"C:\\Users\\66830\\AppData\\Roaming\\Antigravity\" | Select-String -Pattern \"46cf95ba\" | Select-Object -First 20)",
+        "command(npm run build)",
+        "command(winget install -e --id OpenJS.NodeJS)",
+        "command(node -v)",
+        "command(npm install)",
+        "command(vercel --version)",
+        "command(git)",
+        "command(ssh-keygen)"
+      ]
+    }
+  }
+}

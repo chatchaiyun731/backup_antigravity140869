@@ -1,0 +1,22 @@
+{
+  "userSettings": {
+    "globalPermissionGrants": {
+      "allow": [
+        "command(\\$headers = @\\{ \n    \"apikey\" = \"sb_publishable_ZgDsjezCHGXk50TUxnJJ8A_BDa2I2CQ\"; \n    \"Authorization\" = \"Bearer sb_publishable_ZgDsjezCHGXk50TUxnJJ8A_BDa2I2CQ\";\n    \"Content-Type\" = \"application/json\";\n    \"Prefer\" = \"return=representation\"\n\\};\n\\$body = @\\(\n    @\\{ name = \"ทางเข้า-ออกประตูหน้า \\(ศาล\\)\"; asset_number = \"CP-CRT-001\"; location = \"บริเวณศาล\" \\},\n    @\\{ name = \"โถงศาลชั้น 1 \\(ศาล\\)\"; asset_number = \"CP-CRT-002\"; location = \"บริเวณศาล\" \\},\n    @\\{ name = \"ห้องควบคุมกล้องวงจรปิด \\(CCTV\\)\"; asset_number = \"CP-CRT-003\"; location = \"บริเวณศาล\" \\},\n    @\\{ name = \"ทางเดินรอบอาคารศาลด้านทิศตะวันออก\"; asset_number = \"CP-CRT-004\"; location = \"บริเวณศาล\" \\},\n    @\\{ name = \"ป้อมยามหน้าบ้านพักตุลาการ\"; asset_number = \"CP-RES-001\"; location = \"บ้านพัก\" \\},\n    @\\{ name = \"ประตูทางเข้าหลักบ้านพัก\"; asset_number = \"CP-RES-002\"; location = \"บ้านพัก\" \\},\n    @\\{ name = \"โรงจอดรถส่วนกลางบ้านพัก\"; asset_number = \"CP-RES-003\"; location = \"บ้านพัก\" \\}\n\\) \\| ConvertTo-Json -Depth 5;\n\nInvoke-RestMethod -Uri \"https://yurtzwdpfmwytvpaokwi\\.supabase\\.co/rest/v1/g_patrol_checkpoints\" -Headers \\$headers -Method Post -Body \\$body)",
+        "command(ssh-keygen)",
+        "command(ssh-keygen)",
+        "command(ssh-keygen)",
+        "command(mkdir)",
+        "command(ssh-keygen)",
+        "command(ssh-keygen)",
+        "command(powershell)",
+        "command(powershell)",
+        "command(powershell)",
+        "command(powershell)",
+        "command(powershell)"
+      ]
+    },
+    "remoteControlHostname": "tv-deep-eclipse",
+    "useAiCredits": true
+  }
+}

@@ -1,0 +1,6 @@
+
+> investment-portfolio-tracker@0.0.0 build
+> tsc -b && vite build
+
+src/components/AiChat.tsx(2,56): error TS6133: 'HelpCircle' is declared but its value is never read.
+src/components/AiChat.tsx(4,21): error TS1484: 'ChatMessage' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.

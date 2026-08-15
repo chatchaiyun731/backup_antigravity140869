@@ -1,0 +1,1172 @@
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\brain\investment-portfo
+lio-tracker\node_modules\@reduxjs\toolkit\node_modules\immer\src\plugins'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...mer\src\plugins:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\brain\investment-portfo
+lio-tracker\node_modules\@reduxjs\toolkit\skills\build-modern-redux-apps'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...dern-redux-apps:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\brain\investment-portfo
+lio-tracker\node_modules\@reduxjs\toolkit\skills\evolve-and-diagnose-redux-apps'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...nose-redux-apps:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\brain\investment-portfo
+lio-tracker\node_modules\@reduxjs\toolkit\skills\manage-server-data\adopt-rtk-query'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...adopt-rtk-query:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\brain\investment-portfo
+lio-tracker\node_modules\@reduxjs\toolkit\skills\model-redux-state\build-slices-and-selectors'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...s-and-selectors:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\brain\investment-portfo
+lio-tracker\node_modules\@reduxjs\toolkit\skills\model-redux-state\design-state-ownership'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...state-ownership:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\brain\investment-portfo
+lio-tracker\node_modules\@reduxjs\toolkit\skills\orchestrate-side-effects'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...te-side-effects:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\brain\investment-portfo
+lio-tracker\node_modules\@reduxjs\toolkit\src\query\core\buildMiddleware'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...buildMiddleware:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\brain\investment-portfo
+lio-tracker\node_modules\use-sync-external-store\cjs\use-sync-external-store-shim'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...rnal-store-shim:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\brain\investment-portfo
+lio-tracker\node_modules\victory-vendor\lib-vendor\d3-array\src\threshold'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...y\src\threshold:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\brain\investment-portfo
+lio-tracker\node_modules\victory-vendor\lib-vendor\d3-interpolate\src\transform'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...e\src\transform:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\brain\0ad64241-03d5-4023-b9e2-b512f6bf41d4\.system_generated'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...ystem_generated:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\brain\0ce654f0-336b-4c93-a589-13c7a49a060e\.system_generated'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...ystem_generated:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\brain\10e5aae4-9235-450d-afa0-7f5a4e54c609\.system_generated'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...ystem_generated:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\brain\163c26e6-5927-4f19-978e-5de541a3a3aa\.system_generated'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...ystem_generated:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\brain\182174db-080b-469e-82bf-3f6de2c73a36\.system_generated'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...ystem_generated:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\brain\182174db-080b-469e-82bf-3f6de2c73a36\task-1497'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...73a36\task-1497:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\brain\182174db-080b-469e-82bf-3f6de2c73a36\task-1620'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...73a36\task-1620:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\brain\204dd9d2-4696-4bff-9c03-2fb0f8bf6d9d\.system_generated'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...ystem_generated:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\brain\458584c1-f915-4b86-9441-d39952ef4546\.system_generated'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...ystem_generated:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\brain\586cf41d-93f0-4b1b-bfd8-64ab5e5e4444\.system_generated'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...ystem_generated:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\brain\9c1ca343-8509-4b50-a0fa-b71254d57402\.system_generated'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...ystem_generated:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\brain\bad9944e-e90e-4f05-b29b-69299596ba9a\.system_generated'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...ystem_generated:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\brain\bfd7ae71-293a-4b4e-976a-1d157c335610\.system_generated'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...ystem_generated:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\brain\bfd7ae71-293a-4b4e-976a-1d157c335610-20260704T135939Z-3-001'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...4T135939Z-3-001:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\brain\c65c70e4-1473-4c30-bb91-f17f7cbd18d7\.system_generated'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...ystem_generated:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\brain\d1282cc8-5e94-4369-87f9-42588bfb625f\.system_generated'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...ystem_generated:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\brain\f43ccb5d-807c-497e-8d6d-b3d8563d9ba8\.system_generated'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...ystem_generated:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\brain\faa3c24d-130b-4553-a862-c87c4b4fffc0\.system_generated'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...ystem_generated:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\brain\investment-portfolio-tracker\node_modules\.bin'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...de_modules\.bin:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\brain\investment-portfolio-tracker\node_modules\.tmp'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...de_modules\.tmp:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\brain\investment-portfolio-tracker\node_modules\.vite'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...e_modules\.vite:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\brain\investment-portfolio-tracker\node_modules\.vite-temp'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...ules\.vite-temp:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\brain\investment-portfolio-tracker\node_modules\@emnapi'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...modules\@emnapi:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\brain\investment-portfolio-tracker\node_modules\@napi-rs'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...odules\@napi-rs:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\brain\investment-portfolio-tracker\node_modules\@oxc-project'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...es\@oxc-project:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\brain\investment-portfolio-tracker\node_modules\@oxlint'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...modules\@oxlint:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\brain\investment-portfolio-tracker\node_modules\@reduxjs'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...odules\@reduxjs:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\brain\investment-portfolio-tracker\node_modules\@rolldown'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...dules\@rolldown:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\brain\investment-portfolio-tracker\node_modules\@standard-schema'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...standard-schema:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\brain\investment-portfolio-tracker\node_modules\@tybys'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\..._modules\@tybys:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\brain\investment-portfolio-tracker\node_modules\@types'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\..._modules\@types:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\brain\investment-portfolio-tracker\node_modules\@vitejs'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...modules\@vitejs:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\brain\investment-portfolio-tracker\node_modules\clsx'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...de_modules\clsx:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\brain\investment-portfolio-tracker\node_modules\csstype'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...modules\csstype:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\brain\investment-portfolio-tracker\node_modules\d3-array'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...odules\d3-array:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\brain\investment-portfolio-tracker\node_modules\d3-color'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...odules\d3-color:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\brain\investment-portfolio-tracker\node_modules\d3-ease'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...modules\d3-ease:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\brain\investment-portfolio-tracker\node_modules\d3-format'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...dules\d3-format:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\brain\investment-portfolio-tracker\node_modules\d3-interpolate'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...\d3-interpolate:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\brain\investment-portfolio-tracker\node_modules\d3-path'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...modules\d3-path:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\brain\investment-portfolio-tracker\node_modules\d3-scale'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...odules\d3-scale:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\brain\investment-portfolio-tracker\node_modules\d3-shape'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...odules\d3-shape:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\brain\investment-portfolio-tracker\node_modules\d3-time'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...modules\d3-time:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\brain\investment-portfolio-tracker\node_modules\d3-time-format'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...\d3-time-format:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\brain\investment-portfolio-tracker\node_modules\d3-timer'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...odules\d3-timer:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\brain\investment-portfolio-tracker\node_modules\decimal.js-light'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...ecimal.js-light:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\brain\investment-portfolio-tracker\node_modules\detect-libc'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...les\detect-libc:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\brain\investment-portfolio-tracker\node_modules\es-toolkit'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...ules\es-toolkit:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\brain\investment-portfolio-tracker\node_modules\eventemitter3'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...s\eventemitter3:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\brain\investment-portfolio-tracker\node_modules\fdir'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...de_modules\fdir:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\brain\investment-portfolio-tracker\node_modules\immer'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...e_modules\immer:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\brain\investment-portfolio-tracker\node_modules\internmap'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...dules\internmap:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\brain\investment-portfolio-tracker\node_modules\lightningcss'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...es\lightningcss:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\brain\investment-portfolio-tracker\node_modules\lightningcss-win32-x64-msvc'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...-win32-x64-msvc:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\brain\investment-portfolio-tracker\node_modules\lucide-react'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...es\lucide-react:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\brain\investment-portfolio-tracker\node_modules\nanoid'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\..._modules\nanoid:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\brain\investment-portfolio-tracker\node_modules\oxlint'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\..._modules\oxlint:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\brain\investment-portfolio-tracker\node_modules\picocolors'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...ules\picocolors:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\brain\investment-portfolio-tracker\node_modules\picomatch'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...dules\picomatch:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\brain\investment-portfolio-tracker\node_modules\postcss'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...modules\postcss:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\brain\investment-portfolio-tracker\node_modules\react'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...e_modules\react:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\brain\investment-portfolio-tracker\node_modules\react-dom'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...dules\react-dom:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\brain\investment-portfolio-tracker\node_modules\react-is'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...odules\react-is:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\brain\investment-portfolio-tracker\node_modules\react-redux'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...les\react-redux:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\brain\investment-portfolio-tracker\node_modules\recharts'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...odules\recharts:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\brain\investment-portfolio-tracker\node_modules\redux'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...e_modules\redux:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\brain\investment-portfolio-tracker\node_modules\redux-thunk'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...les\redux-thunk:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\brain\investment-portfolio-tracker\node_modules\reselect'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...odules\reselect:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\brain\investment-portfolio-tracker\node_modules\rolldown'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...odules\rolldown:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\brain\investment-portfolio-tracker\node_modules\scheduler'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...dules\scheduler:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\brain\investment-portfolio-tracker\node_modules\source-map-js'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...s\source-map-js:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\brain\investment-portfolio-tracker\node_modules\tiny-invariant'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...\tiny-invariant:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\brain\investment-portfolio-tracker\node_modules\tinyglobby'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...ules\tinyglobby:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\brain\investment-portfolio-tracker\node_modules\typescript'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...ules\typescript:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\brain\investment-portfolio-tracker\node_modules\undici-types'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...es\undici-types:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\brain\investment-portfolio-tracker\node_modules\use-sync-external-store'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...-external-store:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\brain\investment-portfolio-tracker\node_modules\victory-vendor'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...\victory-vendor:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\brain\investment-portfolio-tracker\node_modules\vite'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...de_modules\vite:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\brain_backup\46cf95ba-2a42-498a-85fc-90c849dcd2ba\.system_generated'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...ystem_generated:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\annotations'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...ity\annotations:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\brain\0ad64241-03d5-4023-b9e2-b512f6bf41d4'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...e2-b512f6bf41d4:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\brain\0ce654f0-336b-4c93-a589-13c7a49a060e'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...89-13c7a49a060e:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\brain\10e5aae4-9235-450d-afa0-7f5a4e54c609'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...a0-7f5a4e54c609:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\brain\163c26e6-5927-4f19-978e-5de541a3a3aa'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...8e-5de541a3a3aa:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\brain\182174db-080b-469e-82bf-3f6de2c73a36'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...bf-3f6de2c73a36:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\brain\204dd9d2-4696-4bff-9c03-2fb0f8bf6d9d'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...03-2fb0f8bf6d9d:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\brain\458584c1-f915-4b86-9441-d39952ef4546'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...41-d39952ef4546:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\brain\46cf95ba-2a42-498a-85fc-90c849dcd2ba'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...fc-90c849dcd2ba:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\brain\586cf41d-93f0-4b1b-bfd8-64ab5e5e4444'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...d8-64ab5e5e4444:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\brain\9c1ca343-8509-4b50-a0fa-b71254d57402'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...fa-b71254d57402:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\brain\bad9944e-e90e-4f05-b29b-69299596ba9a'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...9b-69299596ba9a:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\brain\bfd7ae71-293a-4b4e-976a-1d157c335610'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...6a-1d157c335610:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\brain\bfd7ae71-293a-4b4e-976a-1d157c335610-20260704T1359
+39Z-3-001'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...4T135939Z-3-001:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\brain\c65c70e4-1473-4c30-bb91-f17f7cbd18d7'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...91-f17f7cbd18d7:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\brain\d1282cc8-5e94-4369-87f9-42588bfb625f'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...f9-42588bfb625f:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\brain\f43ccb5d-807c-497e-8d6d-b3d8563d9ba8'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...6d-b3d8563d9ba8:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\brain\faa3c24d-130b-4553-a862-c87c4b4fffc0'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...62-c87c4b4fffc0:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\brain\investment-portfolio-tracker'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...rtfolio-tracker:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\brain\tempmediaStorage'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...empmediaStorage:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\brain_backup'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...ty\brain_backup:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\builtin\skills'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...\builtin\skills:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\conversations'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...y\conversations:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\knowledge'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...avity\knowledge:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...igravity_backup:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+Get-ChildItem : Could not find a part of the path 'C:\Users\66830\.gemini\antigravity\scratch\antigravity_backup_tmp\an
+tigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_bac
+kup_tmp\antigravity\scratch\antigravity_backup_tmp\antigravity\scratch\antigravity_backup_tmp'.
+At line:1 char:1
++ Get-ChildItem -Path 'C:\Users\66830\.gemini' -Recurse | Measure-Objec ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (C:\Users\66830\...vity_backup_tmp:String) [Get-ChildItem], DirectoryNotFound 
+   Exception
+    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+
+
+Count    : 60504
+Average  : 
+Sum      : 2200454960
+Maximum  : 
+Minimum  : 
+Property : Length
+
+
+

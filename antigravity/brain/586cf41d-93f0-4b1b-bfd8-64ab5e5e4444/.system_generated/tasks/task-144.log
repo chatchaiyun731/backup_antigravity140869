@@ -1,0 +1,37 @@
+Vercel CLI 55.0.0 (Node.js 26.4.0)
+Retrieving project…
+Deploying stnjcs-projects/investment-portfolio-tracker
+Uploading [--------------------] (0.0B/28.1KB)
+Uploading [===========---------] (16.0KB/28.1KB)
+Uploading [====================] (28.1KB/28.1KB)
+  Inspect         https://vercel.com/stnjcs-projects/investment-portfolio-tracker/Dspma1h8f1mcfCvuSSLeVaPrti1i
+  Production      https://investment-portfolio-tracker-pzz8hywsn-stnjcs-projects.vercel.app
+Building…
+Running build in Washington, D.C., USA (East) – iad1
+Build machine configuration: 2 cores, 8 GB
+Retrieving list of deployment files...
+Retrieving list of deployment files...
+Downloading 34 deployment files...
+Restored build cache from previous deployment (9TJnnjFDsEKBECF2mzSJWT6zsZ8A)
+Running "vercel build"
+Vercel CLI 55.0.0
+Installing dependencies...
+up to date in 596ms
+12 packages are looking for funding
+run `npm fund` for details
+Running "npm run build"
+> investment-portfolio-tracker@0.0.0 build
+> tsc -b && vite build
+src/services/financeApi.ts(1,36): error TS7016: Could not find a declaration file for module '../cacheManager'. '/vercel/path0/src/cacheManager.js' implicitly has an 'any' type.
+{
+  "status": "error",
+  "reason": "deploy_failed",
+  "message": "Command \"npm run build\" exited with 2",
+  "next": [
+    {
+      "command": "vercel deploy",
+      "when": "retry deploy"
+    }
+  ]
+}
+Error: Command "npm run build" exited with 2

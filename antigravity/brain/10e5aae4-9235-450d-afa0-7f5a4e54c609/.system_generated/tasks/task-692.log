@@ -1,0 +1,30 @@
+npm WARN exec The following package was not found and will be installed: wrangler@4.107.0
+npm WARN cleanup Failed to remove some directories [
+npm WARN cleanup   [
+npm WARN cleanup     '\\\\?\\C:\\Users\\66830\\AppData\\Local\\npm-cache\\_npx\\32026684e21afda6\\node_modules\\@speed-highlight',
+npm WARN cleanup     [Error: EPERM: operation not permitted, rmdir 'C:\Users\66830\AppData\Local\npm-cache\_npx\32026684e21afda6\node_modules\@speed-highlight\core\dist\node'] {
+npm WARN cleanup       errno: -4048,
+npm WARN cleanup       code: 'EPERM',
+npm WARN cleanup       syscall: 'rmdir',
+npm WARN cleanup       path: 'C:\\Users\\66830\\AppData\\Local\\npm-cache\\_npx\\32026684e21afda6\\node_modules\\@speed-highlight\\core\\dist\\node'
+npm WARN cleanup     }
+npm WARN cleanup   ],
+npm WARN cleanup   [
+npm WARN cleanup     '\\\\?\\C:\\Users\\66830\\AppData\\Local\\npm-cache\\_npx\\32026684e21afda6\\node_modules',
+npm WARN cleanup     [Error: EPERM: operation not permitted, rmdir 'C:\Users\66830\AppData\Local\npm-cache\_npx\32026684e21afda6\node_modules\@poppinss\dumper\build\formatters'] {
+npm WARN cleanup       errno: -4048,
+npm WARN cleanup       code: 'EPERM',
+npm WARN cleanup       syscall: 'rmdir',
+npm WARN cleanup       path: 'C:\\Users\\66830\\AppData\\Local\\npm-cache\\_npx\\32026684e21afda6\\node_modules\\@poppinss\\dumper\\build\\formatters'
+npm WARN cleanup     }
+npm WARN cleanup   ],
+npm WARN cleanup   [
+npm WARN cleanup     '\\\\?\\C:\\Users\\66830\\AppData\\Local\\npm-cache\\_npx\\32026684e21afda6\\node_modules\\unenv',
+npm WARN cleanup     [Error: EPERM: operation not permitted, rmdir 'C:\Users\66830\AppData\Local\npm-cache\_npx\32026684e21afda6\node_modules\unenv\dist\runtime'] {
+npm WARN cleanup       errno: -4048,
+npm WARN cleanup       code: 'EPERM',
+npm WARN cleanup       syscall: 'rmdir',
+npm WARN cleanup       path: 'C:\\Users\\66830\\AppData\\Local\\npm-cache\\_npx\\32026684e21afda6\\node_modules\\unenv\\dist\\runtime'
+npm WARN cleanup     }
+npm WARN cleanup   ]
+npm WARN cleanup ]

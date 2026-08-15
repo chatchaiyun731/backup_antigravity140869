@@ -1,0 +1,13 @@
+Fetching with yacdn: https://yacdn.org/proxy/https://query1.finance.yahoo.com/v8/finance/chart/CPALL.BK
+Error: TypeError: fetch failed
+    at node:internal/deps/undici/undici:15845:13
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async testFetch (C:\Users\66830\.gemini\antigravity\brain\182174db-080b-469e-82bf-3f6de2c73a36\scratch\test_fetch.js:8:17) {
+  [cause]: Error: getaddrinfo EAI_AGAIN yacdn.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:122:26) {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'yacdn.org'
+  }
+}

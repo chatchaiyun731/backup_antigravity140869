@@ -1,0 +1,50 @@
+Vercel CLI 55.0.0 (Node.js 26.4.0)
+Retrieving project…
+Deploying stnjcs-projects/investment-portfolio-tracker
+Uploading [--------------------] (0.0B/20.5KB)
+Uploading [===============-----] (16.0KB/20.5KB)
+Uploading [====================] (20.5KB/20.5KB)
+  Inspect         https://vercel.com/stnjcs-projects/investment-portfolio-tracker/23YicSdnzUyjMNqhoYAM9Bf1jmMG
+  Production      https://investment-portfolio-tracker-ls2h8on8t-stnjcs-projects.vercel.app
+Building…
+Building…
+Running build in Washington, D.C., USA (East) – iad1
+Build machine configuration: 2 cores, 8 GB
+Retrieving list of deployment files...
+Downloading 35 deployment files...
+Restored build cache from previous deployment (D7iVKDapYH1r6eT6N9tGDKyf27Cg)
+Running "vercel build"
+Vercel CLI 56.2.0
+Installing dependencies...
+up to date in 774ms
+12 packages are looking for funding
+run `npm fund` for details
+Running "npm run build"
+> investment-portfolio-tracker@0.0.0 build
+> tsc -b && vite build
+vite v8.1.0 building client environment for production...
+  Production      https://investment-portfolio-tracker-ls2h8on8t-stnjcs-projects.vercel.app
+Completing…
+▲ Aliased         https://investment-portfolio-tracker-phi.vercel.app
+{
+  "status": "ok",
+  "deployment": {
+    "id": "dpl_23YicSdnzUyjMNqhoYAM9Bf1jmMG",
+    "url": "https://investment-portfolio-tracker-ls2h8on8t-stnjcs-projects.vercel.app",
+    "inspectorUrl": "https://vercel.com/stnjcs-projects/investment-portfolio-tracker/23YicSdnzUyjMNqhoYAM9Bf1jmMG",
+    "readyState": "READY",
+    "target": "production",
+    "deploymentApiUrl": "https://api.vercel.com/v13/deployments/dpl_23YicSdnzUyjMNqhoYAM9Bf1jmMG"
+  },
+  "message": "Deployment investment-portfolio-tracker-ls2h8on8t-stnjcs-projects.vercel.app ready.",
+  "next": [
+    {
+      "command": "vercel inspect investment-portfolio-tracker-ls2h8on8t-stnjcs-projects.vercel.app",
+      "when": "Inspect deployment"
+    },
+    {
+      "command": "vercel deploy --prod",
+      "when": "Promote to production"
+    }
+  ]
+}

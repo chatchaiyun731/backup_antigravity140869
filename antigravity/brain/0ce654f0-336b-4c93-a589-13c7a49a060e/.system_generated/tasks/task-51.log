@@ -1,0 +1,6 @@
+Successfully scheduled one-shot timer.
+Expected to fire at: 2026-07-16T11:01:10+07:00
+Prompt: Check serve help output
+Early Termination: 0ce654f0-336b-4c93-a589-13c7a49a060e/task-49
+
+[2026-07-16T11:01:07+07:00] Timer cancelled: agent received a message during wait.

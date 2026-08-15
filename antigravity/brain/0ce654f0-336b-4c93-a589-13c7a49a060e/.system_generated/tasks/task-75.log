@@ -1,0 +1,58 @@
+Vercel CLI 55.0.0 (Node.js 26.4.0)
+Loading teams…
+
+  Directory       ~\.gemini\antigravity\scratch\g-patrol
+
+Searching for existing projects…
+
+  No framework detected. Default Project Settings:
+  Build Command: `npm run vercel-build` or `npm run build`
+  Development Command: None
+  Install Command: `yarn install`, `pnpm install`, `npm install`, or `bun install`
+  Output Directory: `public` if it exists, or `.`
+
+✓ Created         stnjcs-projects/g-patrol
+Deploying stnjcs-projects/g-patrol
+Uploading [--------------------] (0.0B/225.2KB)
+Uploading [=====---------------] (56.3KB/225.2KB)
+Uploading [===========---------] (124.4KB/225.2KB)
+Uploading [================----] (182.4KB/225.2KB)
+Uploading [====================] (225.2KB/225.2KB)
+  Inspect         https://vercel.com/stnjcs-projects/g-patrol/7ptbP2NSSgYkG8GJap2QvyygvBYu
+  Production      https://g-patrol-k80t88ipp-stnjcs-projects.vercel.app
+Building…
+Building…
+Running build in Washington, D.C., USA (East) – iad1
+Build machine configuration: 2 cores, 8 GB
+Retrieving list of deployment files...
+Previous build caches not available.
+Downloading 19 deployment files...
+Running "vercel build"
+Vercel CLI 56.2.0
+Build Completed in /vercel/output [46ms]
+Deploying outputs...
+  Production      https://g-patrol-k80t88ipp-stnjcs-projects.vercel.app
+Completing…
+▲ Aliased         https://g-patrol.vercel.app
+{
+  "status": "ok",
+  "deployment": {
+    "id": "dpl_7ptbP2NSSgYkG8GJap2QvyygvBYu",
+    "url": "https://g-patrol-k80t88ipp-stnjcs-projects.vercel.app",
+    "inspectorUrl": "https://vercel.com/stnjcs-projects/g-patrol/7ptbP2NSSgYkG8GJap2QvyygvBYu",
+    "readyState": "READY",
+    "target": "production",
+    "deploymentApiUrl": "https://api.vercel.com/v13/deployments/dpl_7ptbP2NSSgYkG8GJap2QvyygvBYu"
+  },
+  "message": "Deployment g-patrol-k80t88ipp-stnjcs-projects.vercel.app ready.",
+  "next": [
+    {
+      "command": "vercel inspect g-patrol-k80t88ipp-stnjcs-projects.vercel.app",
+      "when": "Inspect deployment"
+    },
+    {
+      "command": "vercel deploy --prod",
+      "when": "Promote to production"
+    }
+  ]
+}

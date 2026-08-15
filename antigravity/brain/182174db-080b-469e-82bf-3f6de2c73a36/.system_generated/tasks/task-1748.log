@@ -1,0 +1,49 @@
+Vercel CLI 55.0.0 (Node.js 26.4.0)
+Loading teams…
+
+  Directory       ~\.gemini\antigravity\scratch\investment-portfolio-tracker
+
+Searching for existing projects…
+
+  Detected Vite (Build Command: vite build, Output Directory: dist)
+
+✓ Created         stnjcs-projects/investment-portfolio-tracker
+Deploying stnjcs-projects/investment-portfolio-tracker
+Uploading [--------------------] (0.0B/194.4KB)
+Uploading [======--------------] (64.0KB/194.4KB)
+Uploading [===========---------] (109.2KB/194.4KB)
+Uploading [===============-----] (147.9KB/194.4KB)
+Uploading [====================] (194.4KB/194.4KB)
+  Inspect         https://vercel.com/stnjcs-projects/investment-portfolio-tracker/BUWTudC4GsfGCqcCVeH6QPFTMWtf
+  Production      https://investment-portfolio-tracker-37un724b9-stnjcs-projects.vercel.app
+Building…
+Running build in Washington, D.C., USA (East) – iad1
+Build machine configuration: 2 cores, 8 GB
+Retrieving list of deployment files...
+Retrieving list of deployment files...
+Previous build caches not available.
+Downloading 32 deployment files...
+Running "vercel build"
+Vercel CLI 55.0.0
+Installing dependencies...
+added 71 packages in 5s
+12 packages are looking for funding
+run `npm fund` for details
+Running "npm run build"
+> investment-portfolio-tracker@0.0.0 build
+> tsc -b && vite build
+src/components/TransactionModal.tsx(411,21): error TS2322: Type '(sym?: string) => Promise<void>' is not assignable to type 'MouseEventHandler<HTMLButtonElement>'.
+Types of parameters 'sym' and 'event' are incompatible.
+Type 'MouseEvent<HTMLButtonElement, MouseEvent>' is not assignable to type 'string'.
+{
+  "status": "error",
+  "reason": "deploy_failed",
+  "message": "Command \"npm run build\" exited with 2",
+  "next": [
+    {
+      "command": "vercel deploy",
+      "when": "retry deploy"
+    }
+  ]
+}
+Error: Command "npm run build" exited with 2

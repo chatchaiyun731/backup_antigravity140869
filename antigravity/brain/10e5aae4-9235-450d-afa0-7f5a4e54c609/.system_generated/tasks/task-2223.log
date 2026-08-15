@@ -1,0 +1,11 @@
+npm WARN exec The following package was not found and will be installed: wrangler@4.110.0
+
+ ⛅️ wrangler 4.110.0
+────────────────────
+Uploading... (4/6)
+Uploading... (5/6)
+Uploading... (6/6)
+✨ Success! Uploaded 2 files (4 already uploaded) (2.17 sec)
+
+🌎 Deploying...
+✨ Deployment complete! Take a peek over at https://cd4da15d.g-patrol-app.pages.dev

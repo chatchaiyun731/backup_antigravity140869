@@ -1,0 +1,6 @@
+{
+  "summary":  "Implementation plan for adding a login system with role-based access (Admin, Court Marshal, Guard) pulling data from Google Sheets.",
+  "updatedAt":  "2026-06-28T13:37:22.826018200Z",
+  "requestFeedback":  true,
+  "userFacing":  true
+}

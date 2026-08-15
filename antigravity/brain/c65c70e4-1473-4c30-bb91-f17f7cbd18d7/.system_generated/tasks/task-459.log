@@ -1,0 +1,16 @@
+
+> investment-portfolio-tracker@0.0.0 build
+> tsc -b && vite build
+
+src/components/Dashboard.tsx(39,21): error TS2304: Cannot find name 'currentPrices'.
+src/components/Dashboard.tsx(39,37): error TS2304: Cannot find name 'currentPrices'.
+src/components/Dashboard.tsx(49,45): error TS2304: Cannot find name 'holdings'.
+src/components/Dashboard.tsx(49,62): error TS7006: Parameter 'h' implicitly has an 'any' type.
+src/components/Dashboard.tsx(50,48): error TS2304: Cannot find name 'holdings'.
+src/components/Dashboard.tsx(50,65): error TS7006: Parameter 'h' implicitly has an 'any' type.
+src/components/Dashboard.tsx(130,8): error TS2304: Cannot find name 'holdings'.
+src/components/Dashboard.tsx(130,20): error TS2304: Cannot find name 'holdings'.
+src/components/Dashboard.tsx(139,18): error TS2304: Cannot find name 'holdings'.
+src/components/Dashboard.tsx(139,34): error TS7006: Parameter 'h' implicitly has an 'any' type.
+src/components/Dashboard.tsx(169,18): error TS2304: Cannot find name 'holdings'.
+src/components/Dashboard.tsx(169,34): error TS7006: Parameter 'h' implicitly has an 'any' type.

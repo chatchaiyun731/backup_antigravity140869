@@ -1,0 +1,6 @@
+Successfully scheduled one-shot timer.
+Expected to fire at: 2026-07-16T10:40:40+07:00
+Prompt: Check task-72 status
+Early Termination: c74aae43-d550-455a-9839-b6e8603c874e/task-72
+
+[2026-07-16T10:40:36+07:00] Timer cancelled: agent received a message during wait.

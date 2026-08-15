@@ -1,0 +1,7 @@
+
+> investment-portfolio-tracker@0.0.0 build
+> tsc -b && vite build
+
+src/components/Dashboard.tsx(87,140): error TS2353: Object literal may only specify known properties, and 'justifyGap' does not exist in type 'Properties<string | number, string & {}>'.
+src/components/Dashboard.tsx(114,137): error TS2353: Object literal may only specify known properties, and 'justifyGap' does not exist in type 'Properties<string | number, string & {}>'.
+src/components/Dashboard.tsx(141,176): error TS2353: Object literal may only specify known properties, and 'justifyGap' does not exist in type 'Properties<string | number, string & {}>'.

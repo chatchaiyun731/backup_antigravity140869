@@ -1,0 +1,6 @@
+{
+  "summary":  "SQL commands to add zone column to g_patrol_checkpoints database schema and populate it based on checkpoint locations (บริเวณศาล vs บ้านพัก)",
+  "updatedAt":  "2026-07-16T04:09:24.878388400Z",
+  "requestFeedback":  true,
+  "userFacing":  true
+}
